@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "onepassword": {
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/onepassword-mcp/dist/index.js"],
+      "env": {
+        "OP_SERVICE_ACCOUNT_TOKEN": "paste_your_service_account_token_here",
+        "OP_VAULT": "All Items",
+        "OP_MCP_ALLOW_WRITE": "0"
+      }
+    }
+  }
+}
